@@ -1,10 +1,10 @@
 function Header() {
-  <div className="bg-slate-950">
-    <h1>Dev.Tgs</h1>
+  <div className="bg-gray-600 flex">
+    <h1 className="text-sky-600">Dev.Tgs</h1>
     <div>
-      <img src="/img/logo/github.png" alt="" />
-      <img src="/img/logo/linkedin.png" alt="" />
-      <img src="/img/logo/instagram.png" alt="" />
+      <img src="/img/logo/github.png" />
+      <img src="/img/logo/linkedin.png" />
+      <img src="/img/logo/instagram.png" />
     </div>
   </div>;
 }
