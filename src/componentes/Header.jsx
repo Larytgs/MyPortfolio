@@ -1,5 +1,5 @@
 function Header() {
-  <div>
+  <div className="bg-slate-950">
     <h1>Dev.Tgs</h1>
     <div>
       <img src="/img/logo/github.png" alt="" />
