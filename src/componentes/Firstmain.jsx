@@ -1,3 +1,6 @@
+import Button from "./estilização/button";
+import Lista from "./estilização/lista";
+
 function Firstmain() {
   return (
     <section className="mb-6 p-5 mt-14">
@@ -59,36 +62,28 @@ function Firstmain() {
         </div>
       </section>
 
-      <div className="content-box" id="card-title">
+      <div className="mt-10">
         <ul className="text-center">
-          <li className="inline-block bg-white text-black">
+          <Lista>
             <a href="#tabela1">
-              <button className="pt-[10px] pb-[10px] pl-[80px] pr-[80px]">
-                Apresentação
-              </button>
+              <Button>Apresentação</Button>
             </a>
-          </li>
-          <li className="inline-block bg-white text-black">
+          </Lista>
+          <Lista>
             <a href="#tabela2">
-              <button className="pt-[10px] pb-[10px] pl-[80px] pr-[80px]">
-                Habilidades
-              </button>
+              <Button>Habilidades</Button>
             </a>
-          </li>
-          <li className="inline-block bg-white text-black">
+          </Lista>
+          <Lista>
             <a href="#tabela3">
-              <button className="pt-[10px] pb-[10px] pl-[80px] pr-[80px]">
-                Conhecimentos
-              </button>
+              <Button>Conhecimentos</Button>
             </a>
-          </li>
-          <li className="inline-block bg-white text-black">
+          </Lista>
+          <Lista>
             <a href="#tabela4">
-              <button className="pt-[10px] pb-[10px] pl-[80px] pr-[80px]">
-                Projetos
-              </button>
+              <Button>Projetos</Button>
             </a>
-          </li>
+          </Lista>
         </ul>
       </div>
     </section>
