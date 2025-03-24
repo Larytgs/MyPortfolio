@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "cabeçalho";
+  src: url(estilo/Mogent.otf) format(opentype);
+}
+
 :root {
   --corturquesa: #6ad0ff;
   --fundoBlack: #000000;
@@ -51,4 +56,25 @@ body {
   pointer-events: none; /* Evita interferência com cliques */
   transform: translate(-50%, -50%);
   transition: transform 0.5s linear;
+}
+
+#header {
+  text-align: center;
+  background-color: var(--headerFotter);
+  padding: 12px;
+
+  position: sticky; /*grudavel*/
+  top: -1px;
+  z-index: 1; /*Assim, ele ficará na frente de tds*/
+
+  display: flex; /*coloquei na lateral os icones*/
+  align-items: center; /*centralizar os icones*/
+  justify-content: space-between; /*espaçamento igual*/
+  cursor: initial;
+}
+#h1Header {
+  color: var(--corturquesa);
+  font-family: "cabeçalho";
+  font-size: 2em;
+  font-weight: 800;
 }
