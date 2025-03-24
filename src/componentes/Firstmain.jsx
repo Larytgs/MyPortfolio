@@ -4,17 +4,17 @@ function Firstmain() {
       <section className="flex justify-between ">
         <article className="m-auto p-5 text-center">
           <article>
-            <h1 className=" text-[2.2em] mb-5 text-left font-sans">
+            <h1 className=" text-[2.2em] mb-5 text-left font-sans tracking-tight leading-none">
               Laryssa Tortato Gomes da Silva
               <br />
-              <span className="text-[0.8em] font-thin">
+              <span className="text-[0.8em] font-thin text-[#797676]">
                 Desenvolvedora Web Front end
               </span>
             </h1>
             <br />
             <div className="flex gap-4 items-center">
               <a
-                className="inline-flex gap-1 bg-[#181717] p-3 rounded-xl"
+                className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
                 href="/img/CurriculoLaryssa.pdf"
                 target="_blank"
               >
