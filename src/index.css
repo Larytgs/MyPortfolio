@@ -7,6 +7,10 @@
   src: url(estilo/Mogent.otf) format(opentype);
 }
 
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
 :root {
   --corturquesa: #6ad0ff;
   --fundoBlack: #000000;

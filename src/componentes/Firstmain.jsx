@@ -1,20 +1,20 @@
 function Firstmain() {
   return (
-    <section className="mb-6 p-5">
+    <section className="mb-6 p-5 mt-14">
       <section className="flex justify-between ">
         <article className="m-auto p-5 text-center">
           <article>
-            <h1 className=" text-[2em] mb-5 text-left font-mono">
+            <h1 className=" text-[2.2em] mb-5 text-left font-sans">
               Laryssa Tortato Gomes da Silva
               <br />
-              <span className="text-2xl font-mono">
+              <span className="text-[0.8em] font-thin">
                 Desenvolvedora Web Front end
               </span>
             </h1>
             <br />
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
               <a
-                className="inline-flex gap-1"
+                className="inline-flex gap-1 bg-[#181717] p-3 rounded-xl"
                 href="/img/CurriculoLaryssa.pdf"
                 target="_blank"
               >
@@ -25,7 +25,7 @@ function Firstmain() {
                   alt="Curriculo"
                 />
               </a>
-              <p className="block w-[500px] font-mono text-[1.2em]">
+              <p className="block w-[500px] font-serif text-[1.2em]">
                 ”Transformando sonhos em conquistas; linhas de código em
                 experiências memoráveis.”
               </p>
