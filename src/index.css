@@ -82,3 +82,21 @@ body {
   font-size: 2em;
   font-weight: 800;
 }
+
+#minhaft {
+  border-radius: 20% 10px;
+  border: 1px solid var(--corturquesa);
+  filter: brightness(70%); /*deixar a imagem mais escura*/
+  animation: flutuar 2.5s infinite backwards;
+}
+@keyframes flutuar {
+  0% {
+    transform: translateY(1rem); /* Move para baixo */
+  }
+  50% {
+    transform: translateY(-0.5rem); /* Move para cima */
+  }
+  100% {
+    transform: translateY(1rem); /* Move para baixo */
+  }
+}
