@@ -1,4 +1,4 @@
-function Button(props) {
+function First(props) {
   return (
     <button className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px]">
       {props.children}
@@ -6,4 +6,4 @@ function Button(props) {
   );
 }
 
-export default Button;
+export default First;

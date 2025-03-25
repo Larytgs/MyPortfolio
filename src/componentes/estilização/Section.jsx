@@ -1,6 +1,10 @@
 //Todas as Seqtions
 function Section(props) {
-  return <section className="mt-11 mb-20 p-7">{props.children}</section>;
+  return (
+    <section className="mt[1%] mb[4%] p-7 align-middle">
+      {props.children}
+    </section>
+  );
 }
 
 //Todos os textos
@@ -10,7 +14,7 @@ function Text(props) {
   );
 }
 
-//skill-wrapper as divs da ul
+//skill-wrapper as divs da ul - Skills.jsx
 function SkillWrapper(props) {
   return (
     <div className="flex items-center justify-between mt-7 mb-3">
@@ -19,5 +23,14 @@ function SkillWrapper(props) {
   );
 }
 
+//Cards as divs do conhecimentos - Knowledge.jsx
+function Cards(props) {
+  return (
+    <div className="ml-3 bg-[#333] rounded-2xl w-[500px] h-[250px] m-auto align-middle p-4 text-left ">
+      {props.children}
+    </div>
+  );
+}
+
 export default Section;
-export { Text, SkillWrapper };
+export { Text, SkillWrapper, Cards };
