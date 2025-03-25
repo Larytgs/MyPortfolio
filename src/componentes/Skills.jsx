@@ -1,7 +1,8 @@
 function Skills() {
   //Habilidades
   return (
-    <section id="tabela2" class="tab-content">
+    //repetido 8a linha de baixo
+    <section className="mt-15 mb-20 p-7">
       <div class="habilidades">
         <div class="textHabilidade">
           <h3 class="habilid-title">Aprendizado Contínuo.</h3>
@@ -46,7 +47,6 @@ function Skills() {
             </li>
           </ul>
           <figure class="img-holder">
-            {" "}
             <img src="/img/html-css-js.jpg" alt="" />
           </figure>
         </div>
