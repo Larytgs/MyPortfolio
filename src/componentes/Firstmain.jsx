@@ -1,5 +1,4 @@
-import Button from "./estilização/button";
-import Lista from "./estilização/lista";
+import Button, { Lista } from "./estilização/First";
 
 function Firstmain() {
   return (
