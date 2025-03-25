@@ -1,19 +1,19 @@
+import Subtitulo from "./estilização/Subtitulo";
+
 function Presentation() {
   return (
     <section className="mt-15 mb-20 p-7">
-      <section className="flex gap-[30px]">
-        <figur>
+      <section className="flex gap-7">
+        <figure>
           <img
             className="w-[35rem] m-2"
             src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"
             alt=""
           />
-        </figur>
+        </figure>
 
         <div className="m-auto text-center">
-          <h2 className="mb-10 text-3xl text-[#6ad0ff] font-bold">
-            Um pequeno palco em meio à imensidão cósmica.
-          </h2>
+          <Subtitulo>Um pequeno palco em meio à imensidão cósmica.</Subtitulo>
           <p className="text-xl text-left pt-5 pb-5 pl-0 pr-0">
             Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Itapoá-SC.
             <br />
