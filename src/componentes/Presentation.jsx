@@ -1,34 +1,45 @@
 function Presentation() {
   return (
-    <section id="tabela1" class="tab-content">
-      <div class="tabelas">
-          <figure class="img-holder">
-            <img src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"/>
-          </figure>
-      
-          <div class="about-content">
-              <h2 class="primeiro-title">
-              Um pequeno palco em meio à imensidão cósmica.
-              </h2>
-                <p class="section-text">
-                  Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Itapoá-SC. 
-                  <br><br>Sou graduada em Análises e desenvolvimento de sistemas, estudo programação desde 2020, com ênfase em desenvolvimento web.
-                  <br>Atualmente estou finalizando Pós-Graduação em Front-end.</p>
-              
-              <ul class="about-list">
-                  <li class="about-item">
-                      <p class="nome">Nome</p>
-                      <span class="spantitle">Laryssa Tortato Gomes da Silva</span>
-                  </li>
-                  <li class="about-item">
-                      <p class="email">Email</p>
-                      <span class="spantitle">siteslarytgs@gmail.com</span>
-                  </li>
-              </ul>
-          </div>
-      </div>
+    <section className="mt-15 mb-20 p-7">
+      <section className="flex gap-[30px]">
+        <figur>
+          <img
+            className="w-[35rem] m-2"
+            src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"
+            alt=""
+          />
+        </figur>
+
+        <div className="m-auto text-center">
+          <h2 className="mb-10 text-3xl text-[#6ad0ff] font-bold">
+            Um pequeno palco em meio à imensidão cósmica.
+          </h2>
+          <p className="text-xl text-left pt-5 pb-5 pl-0 pr-0">
+            Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Itapoá-SC.
+            <br />
+            Sou graduada em Análises e desenvolvimento de sistemas, estudo
+            programação desde 2020,com ênfase em desenvolvimento web.
+            <br />
+            Atualmente estou finalizando Pós-Graduação em Front-end.
+          </p>
+          <ul className="flex justify-evenly text-center">
+            <li>
+              <p className="text-2xl underline underline-offset-4 text-left">
+                Nome
+              </p>
+              <span className="text-lg">Laryssa Tortato Gomes da Silva</span>
+            </li>
+            <li>
+              <p className="text-2xl underline underline-offset-4 text-left">
+                Email
+              </p>
+              <span className="text-lg">siteslarytgs@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </section>
     </section>
-  )
+  );
 }
 
 export default Presentation;

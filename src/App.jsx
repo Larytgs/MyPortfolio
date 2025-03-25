@@ -1,6 +1,6 @@
 import Header from "./componentes/Header";
 import Firstmain from "./componentes/Firstmain";
-// import Presentation from "./componentes/Presentation";
+import Presentation from "./componentes/Presentation";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div>
         <Header />
         <Firstmain />
-        {/* <Presentation /> */}
+        <Presentation />
       </div>
     </>
   );

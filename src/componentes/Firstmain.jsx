@@ -7,7 +7,7 @@ function Firstmain() {
       <section className="flex justify-between ">
         <article className="m-auto p-5 text-center">
           <article>
-            <h1 className=" text-[2.8em] mb-5 text-left font-sans tracking-tight leading-none">
+            <h1 className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none">
               Laryssa Tortato Gomes da Silva
               <br />
               <span className="text-[0.7em] font-thin text-[#797676]">
