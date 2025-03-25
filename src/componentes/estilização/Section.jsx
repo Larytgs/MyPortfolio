@@ -10,5 +10,14 @@ function Text(props) {
   );
 }
 
+//skill-wrapper as divs da ul
+function SkillWrapper(props) {
+  return (
+    <div className="flex items-center justify-between mt-7 mb-3">
+      {props.children}
+    </div>
+  );
+}
+
 export default Section;
-export { Text };
+export { Text, SkillWrapper };

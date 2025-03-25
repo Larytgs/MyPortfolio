@@ -1,5 +1,5 @@
 import Subtitulo from "./estilização/Subtitulo";
-import Section, { Text } from "./estilização/Section";
+import Section, { Text, SkillWrapper } from "./estilização/Section";
 
 //Habilidades
 function Skills() {
@@ -22,28 +22,28 @@ function Skills() {
           </Text>
           <ul className="m-5">
             <li>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <SkillWrapper>
                 <span className="font-bold">Proatividade e Determinação</span>
                 <span>100%</span>
-              </div>
+              </SkillWrapper>
               <div className="h-1">
                 <div className="h-[100%] w-[100%] bg-[#6ad0ff]"></div>
               </div>
             </li>
             <li>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <SkillWrapper>
                 <span className="font-bold">Desenvolvimento de Websites</span>
                 <span>90%</span>
-              </div>
+              </SkillWrapper>
               <div className="h-1 bg-[#0f0f0f]">
                 <div className="h-[90%] w-[90%] bg-[#6ad0ff]"></div>
               </div>
             </li>
             <li>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <SkillWrapper>
                 <span className="font-bold">Web Design</span>
                 <span>85%</span>
-              </div>
+              </SkillWrapper>
               <div className="h-1 bg-[#0f0f0f]">
                 <div className="h-[100%] w-[85%] bg-[#6ad0ff]"></div>
               </div>
