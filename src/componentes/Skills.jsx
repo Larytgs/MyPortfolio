@@ -1,13 +1,12 @@
 import Subtitulo from "./estilização/Subtitulo";
+import Section from "./estilização/Section";
 
 function Skills() {
   //Habilidades
   return (
-    //repetido a linha de baixo
-    <section className="mt-15 mb-20 p-7">
+    <Section>
       <div className="flex gap-7">
         <div className="m-auto text-center">
-          {/*repetido a linha de baixo */}
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
           <p className="text-xl text-left m-5">
             Como Desenvolvedor Web Front-end, acredito na importância do
@@ -16,7 +15,6 @@ function Skills() {
             <br />
             Fiz cursos complementares, como Python, PHP, MySQL, HTML5, CSS3,
             Javascript, atualmente React.
-            <br />
             <br />
             Além disso, sou proativa, resolvo problemas de forma eficaz e
             valorizo o trabalho em equipe para entregar resultados de alta
@@ -56,7 +54,7 @@ function Skills() {
           <img src="/img/html-css-js.jpg" alt="" />
         </figure>
       </div>
-    </section>
+    </Section>
   );
 }
 

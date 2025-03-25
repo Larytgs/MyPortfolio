@@ -1,8 +1,9 @@
 import Subtitulo from "./estilização/Subtitulo";
+import Section from "./estilização/Section";
 
 function Presentation() {
   return (
-    <section className="mt-15 mb-20 p-7">
+    <Section>
       <section className="flex gap-7">
         <figure>
           <img
@@ -38,7 +39,7 @@ function Presentation() {
           </ul>
         </div>
       </section>
-    </section>
+    </Section>
   );
 }
 
