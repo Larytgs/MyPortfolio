@@ -1,4 +1,4 @@
-//Todas as Seqtions
+//Todas as Sections
 function Section(props) {
   return (
     <section className="mt[1%] mb[4%] p-7 align-middle">
@@ -26,11 +26,16 @@ function SkillWrapper(props) {
 //Cards as divs do conhecimentos - Knowledge.jsx
 function Cards(props) {
   return (
-    <div className="ml-3 bg-[#333] rounded-2xl w-[500px] h-[250px] m-auto align-middle p-4 text-left ">
+    <div className=" ml-3 bg-[#333] rounded-2xl w-[400px] h-[280px] m-auto align-middle p-4 text-left ">
       {props.children}
     </div>
   );
 }
 
+//H3 dos Cards do conhecimentos - Knowledge.jsx
+function H3(props) {
+  return <h3 className="text-2xl mt-6 mb-2 ml-0 mr-0">{props.children}</h3>;
+}
+
 export default Section;
-export { Text, SkillWrapper, Cards };
+export { Text, SkillWrapper, Cards, H3 };
