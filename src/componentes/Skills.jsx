@@ -1,14 +1,14 @@
 import Subtitulo from "./estilização/Subtitulo";
-import Section from "./estilização/Section";
+import Section, { Text } from "./estilização/Section";
 
+//Habilidades
 function Skills() {
-  //Habilidades
   return (
     <Section>
       <div className="flex gap-7">
         <div className="m-auto text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
-          <p className="text-xl text-left m-5">
+          <Text className="text-lg text-left m-5">
             Como Desenvolvedor Web Front-end, acredito na importância do
             aprendizado contínuo e estou constantemente aprimorando minhas
             habilidades.
@@ -19,7 +19,7 @@ function Skills() {
             Além disso, sou proativa, resolvo problemas de forma eficaz e
             valorizo o trabalho em equipe para entregar resultados de alta
             qualidade.
-          </p>
+          </Text>
           <ul className="m-5">
             <li>
               <div className="flex items-center justify-between mt-7 mb-3">
