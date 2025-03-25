@@ -37,5 +37,14 @@ function H3(props) {
   return <h3 className="text-2xl mt-6 mb-2 ml-0 mr-0">{props.children}</h3>;
 }
 
+//H3 dos Projetos - Projects.jsx
+function TitleH3(props) {
+  return (
+    <h3 className="absolute top-[50%] left[50%] text-gray-500 opacity-0">
+      {props.children}
+    </h3>
+  );
+}
+
 export default Section;
-export { Text, SkillWrapper, Cards, H3 };
+export { Text, SkillWrapper, Cards, H3, TitleH3 };

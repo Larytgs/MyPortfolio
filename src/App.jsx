@@ -3,6 +3,7 @@ import Firstmain from "./componentes/Firstmain";
 import Presentation from "./componentes/Presentation";
 import Skills from "./componentes/Skills";
 import Knowledge from "./componentes/estilização/Knowledge";
+import Projects from "./componentes/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Presentation />
         <Skills />
         <Knowledge />
+        <Projects />
       </div>
     </>
   );

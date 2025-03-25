@@ -87,7 +87,7 @@ function Knowledge() {
                 compartilhar APIs.
               </p>
             </Cards>
-            <Cards className="col-span-3">
+            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left ">
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/vscode-original.svg"
@@ -98,7 +98,7 @@ function Knowledge() {
                 Visual Studio Code (VS Code) é um editor de código-fonte
                 gratuito e de código aberto desenvolvido pela Microsoft.
               </p>
-            </Cards>
+            </div>
             {/* <button class="control control-right" onclick="moverCarrossel(1)">
                 &#10095; </button> */}
           </div>
