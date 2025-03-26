@@ -3,7 +3,7 @@ import { useState } from "react";
 import Button, { Lista } from "./estilização/First";
 import Header from "./Header";
 import { Presentation, Skills, Knowledge, Projects } from "./pages";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
