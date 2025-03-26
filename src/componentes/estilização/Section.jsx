@@ -1,7 +1,7 @@
 //Todas as Sections
 function Section(props) {
   return (
-    <section className="mt[1%] mb[4%] p-7 align-middle">
+    <section className="mt[1%] mb-[1%] p-7 align-middle">
       {props.children}
     </section>
   );

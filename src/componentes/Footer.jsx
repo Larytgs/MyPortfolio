@@ -4,7 +4,6 @@ function Footer() {
     color: "white",
     backgroundColor: "#181717",
     padding: "14px",
-    marginTop: "5%",
   };
 
   return <h1 style={footerStyle}>&copy;2025 Laryssa Tortato Gomes da Silva</h1>;
