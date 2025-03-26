@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <div id="header">
-      <h1 id="h1Header">Dev.Tgs</h1>
+    <div className="header">
+      <h1 className="h1Header">Dev.Tgs</h1>
       <div className="flex gap-4 cursor-pointer">
         <a href="https://github.com/Larytgs" target="blank">
           <img src="/img/logo/github.png" />

@@ -37,8 +37,7 @@ function Firstmain() {
 
         <figure className="relative m-auto ml-[-50px]">
           <img
-            id="minhaft"
-            className="w-[350px]"
+            className="minhaft w-[350px]"
             src="/img/logo/minhafoto2.jpg"
             alt="minha foto"
           />

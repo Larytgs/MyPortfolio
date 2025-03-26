@@ -55,14 +55,15 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: rgba(0, 255, 255, 0.5); /* Cor turquesa com transparência */
+  background-color: #00ffff80; /* Cor turquesa com transparência */
   position: absolute;
   pointer-events: none; /* Evita interferência com cliques */
   transform: translate(-50%, -50%);
   transition: transform 0.5s linear;
 }
 
-#header {
+/*Header.jsx*/
+.header {
   text-align: center;
   background-color: var(--headerFotter);
   padding: 12px;
@@ -76,14 +77,15 @@ body {
   justify-content: space-between; /*espaçamento igual*/
   cursor: initial;
 }
-#h1Header {
+.h1Header {
   color: var(--corturquesa);
   font-family: "cabeçalho";
   font-size: 2em;
   font-weight: 800;
 }
 
-#minhaft {
+/*Firstmain.jsx*/
+.minhaft {
   border-radius: 20% 10px;
   border: 1px solid var(--corturquesa);
   filter: brightness(70%); /*deixar a imagem mais escura*/
@@ -102,16 +104,13 @@ body {
 }
 
 /*H3 dos Projetos - Projects.jsx*/
-.H3 {
-  transform: translate(-50%, -100%);
-  font-size: 1.8em;
-  font-weight: var(--weight-regular);
-  line-height: 1.3;
-  transition: var(--transition-1);
+.card-title {
+  position: absolute;
 }
-.service-proj:is(:hover, :focus-visible) .card-title {
+.service-proj:is(:hover, :focus-visible) .H3 {
   opacity: 1; /*mover o texto aparecer em cima da imagem*/
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -200%);
+  width: 220px;
 }
 .service-proj:is(:hover, :focus-visible) .card-proj {
   opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
