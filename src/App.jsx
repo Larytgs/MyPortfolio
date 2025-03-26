@@ -1,9 +1,9 @@
 import Header from "./componentes/Header";
-import Firstmain from "./componentes/Firstmain";
-import Presentation from "./componentes/Presentation";
+import Firstmain from "./componentes/pages/Firstmain";
+import Presentation from "./componentes/pages/Presentation";
 import Skills from "./componentes/Skills";
-import Knowledge from "./componentes/estilização/Knowledge";
-import Projects from "./componentes/Projects";
+import Knowledge from "./componentes/pages/Knowledge";
+import Projects from "./componentes/pages/Projects";
 
 function App() {
   return (

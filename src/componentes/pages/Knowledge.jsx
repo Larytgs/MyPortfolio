@@ -1,5 +1,5 @@
-import Section, { Cards, H3 } from "./Section";
-import Subtitulo from "./Subtitulo";
+import Section, { Cards, H3 } from "../estilização/Section";
+import Subtitulo from "../estilização/Subtitulo";
 
 //Conhecimentos
 function Knowledge() {
