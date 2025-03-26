@@ -7,10 +7,7 @@ function Knowledge() {
     <Section>
       <section className="text-center m-auto">
         <Subtitulo>Conhecimentos</Subtitulo>
-        {/* tirei o carrossel */}
         <div className="mt-5">
-          {/* <button class="control control-left" onclick="moverCarrossel(-1)">
-            &#10094; </button>*/}
           <div className="m-auto grid grid-cols-3 gap-4">
             <Cards>
               <img
@@ -99,8 +96,6 @@ function Knowledge() {
                 gratuito e de código aberto desenvolvido pela Microsoft.
               </p>
             </div>
-            {/* <button class="control control-right" onclick="moverCarrossel(1)">
-                &#10095; </button> */}
           </div>
           <a
             href="https://github.com/Larytgs"
