@@ -1,26 +1,26 @@
+// import { Link } from "react-router-dom";
+import { useState } from "react";
 import Button, { Lista } from "./estilização/First";
+import Header from "./Header";
+//import { Presentation, Skills, Knowledge, Projects } from "./pages";
+import Presentation from "./pages/Presentation";
+import Skills from "./pages/Skills";
+import Knowledge from "./pages/Knowledge";
+import Projects from "./pages/Projects";
 
 function Firstmain() {
-  return (
-    <div>
-      <div className="header">
-        <h1 className="h1Header">Dev.Tgs</h1>
-        <div className="flex gap-4 cursor-pointer">
-          <a href="https://github.com/Larytgs" target="blank">
-            <img src="/img/logo/github.png" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/laryssa-tortato-7612961a9/"
-            target="blank"
-          >
-            <img src="/img/logo/linkedin.png" />
-          </a>
-          <a href="https://www.instagram.com/larytgs/" target="blank">
-            <img className="mr-4" src="/img/logo/instagram.png" />
-          </a>
-        </div>
-      </div>
+  // null, ou seja, nenhuma seção está visível no início.
+  // setVisibleSection é a função usada para atualizar o valor de visibleSection
+  const [visibleSection, setVisibleSection] = useState(null);
 
+  //Essa função toggleSection é chamada sempre que um botão é clicado, e ela recebe o nome de uma seção (como "presentation", "skills", etc.) como parâmetro (section)
+  const toggleSection = (section) => {
+    setVisibleSection(visibleSection === section ? null : section);
+  };
+
+  return (
+    <>
+      <Header />
       <section className="mb-6 p-5 mt-14">
         <section className="flex justify-between ">
           <article className="m-auto p-5 text-center">
@@ -82,29 +82,35 @@ function Firstmain() {
         <div className="mt-10">
           <ul className="text-center">
             <Lista>
-              <a href="#tabela1">
-                <Button>Apresentação</Button>
-              </a>
+              <Button onClick={() => toggleSection("presentation")}>
+                Apresentação
+              </Button>
+              {visibleSection === "presentation" && (
+                <Presentation style={{ border: "1px solid red" }} />
+              )}
             </Lista>
             <Lista>
-              <a href="#tabela2">
-                <Button>Habilidades</Button>
-              </a>
+              <Button onClick={() => toggleSection("skills")}>
+                Habilidades
+              </Button>
+              {visibleSection === "skills" && <Skills />}
             </Lista>
             <Lista>
-              <a href="#tabela3">
-                <Button>Conhecimentos</Button>
-              </a>
+              <Button onClick={() => toggleSection("knowledge")}>
+                Conhecimentos
+              </Button>
+              {visibleSection === "knowledge" && <Knowledge />}
             </Lista>
             <Lista>
-              <a href="#tabela4">
-                <Button>Projetos</Button>
-              </a>
+              <Button onClick={() => toggleSection("projects")}>
+                Projetos
+              </Button>
+              {visibleSection === "projects" && <Projects />}
             </Lista>
           </ul>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 
