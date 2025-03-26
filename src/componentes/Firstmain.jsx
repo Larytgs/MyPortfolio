@@ -3,10 +3,6 @@ import { useState } from "react";
 import Button, { Lista } from "./estilização/First";
 import Header from "./Header";
 import { Presentation, Skills, Knowledge, Projects } from "./pages";
-// import Presentation from "./pages/Presentation";
-// import Skills from "./pages/Skills";
-// import Knowledge from "./pages/Knowledge";
-// import Projects from "./pages/Projects";
 
 function Firstmain() {
   // null/false, ou seja, nenhuma seção está visível no início.
@@ -15,6 +11,7 @@ function Firstmain() {
 
   // A função toggleSection vai alternar entre mostrar e esconder a seção
   const toggleSection = (section) => {
+    console.log("Trocando para seção:", section); // Debug
     setVisibleSection(visibleSection === section ? null : section); // Se a seção já estiver visível, esconda; senão, mostre.
   };
 
@@ -82,28 +79,28 @@ function Firstmain() {
         <div className="mt-10">
           <ul className="text-center">
             <Lista>
-              <Button onClick={() => toggleSection("Presentation")}>
+              <Button onClick={() => toggleSection("presentation")}>
                 Apresentação
               </Button>
-              {visibleSection === "Presentation" && <Presentation />}
+              {visibleSection === "presentation" && <Presentation />}
             </Lista>
             <Lista>
-              <Button onClick={() => toggleSection("Skills")}>
+              <Button onClick={() => toggleSection("skills")}>
                 Habilidades
               </Button>
-              {visibleSection === "Skills" && <Skills />}
+              {visibleSection === "skills" && <Skills />}
             </Lista>
             <Lista>
-              <Button onClick={() => toggleSection("Knowledge")}>
+              <Button onClick={() => toggleSection("knowledge")}>
                 Conhecimentos
               </Button>
-              {visibleSection === "Knowledge" && <Knowledge />}
+              {visibleSection === "knowledge" && <Knowledge />}
             </Lista>
             <Lista>
-              <Button onClick={() => toggleSection("Projects")}>
+              <Button onClick={() => toggleSection("projects")}>
                 Projetos
               </Button>
-              {visibleSection === "Projects" && <Projects />}
+              {visibleSection === "projects" && <Projects />}
             </Lista>
           </ul>
         </div>
