@@ -1,3 +1,6 @@
+import { motion } from "framer-motion";
+import { div } from "framer-motion/client";
+
 //Todas as Sections
 function Section(props) {
   return (
@@ -26,18 +29,35 @@ function SkillWrapper(props) {
 //Cards as divs do conhecimentos - Knowledge.jsx
 function Cards(props) {
   return (
-    <div className=" ml-3 bg-[#333] rounded-2xl w-[400px] h-[280px] m-auto align-middle p-4 text-left ">
+    <motion.div
+      initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
+      animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
+      transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
+      className="ml-3 bg-[#333] rounded-2xl w-[400px] h-[280px] m-auto align-middle p-4 text-left"
+    >
       {props.children}
-    </div>
+    </motion.div>
   );
 }
-
 //H3 dos Cards do conhecimentos - Knowledge.jsx
 function H3(props) {
   return <h3 className="text-2xl mt-6 mb-2 ml-0 mr-0">{props.children}</h3>;
 }
 
 //H3 dos Projetos - Projects.jsx
+function Project(props) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
+      animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
+      transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
+      className="inline-grid grid-cols-2 mb-[5%] m-2.5"
+    >
+      {props.children}
+    </motion.div>
+  );
+}
+
 function TitleH3(props) {
   return (
     <h3 className="H3 absolute text-[#6ad0ff] text-2xl texto-sm/7 opacity-0 translate-x-[-50%] translate-y-[-80%] transform transition duration-250 ease-in-out">
@@ -47,4 +67,4 @@ function TitleH3(props) {
 }
 
 export default Section;
-export { Text, SkillWrapper, Cards, H3, TitleH3 };
+export { Text, SkillWrapper, Cards, H3, TitleH3, Project };

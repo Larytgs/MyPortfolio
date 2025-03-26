@@ -1,4 +1,4 @@
-import Section, { TitleH3 } from "../estilização/Section";
+import Section, { TitleH3, Project } from "../estilização/Section";
 import Subtitulo from "../estilização/Subtitulo";
 
 function Projects() {
@@ -7,7 +7,7 @@ function Projects() {
       <section className="text-center m-auto">
         <Subtitulo>Projetos</Subtitulo>
 
-        <div className="inline-grid grid-cols-2 mb-[5%] m-2.5">
+        <Project>
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -86,7 +86,7 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </Project>
       </section>
     </Section>
   );
