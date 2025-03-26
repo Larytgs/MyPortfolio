@@ -8,7 +8,7 @@ function Knowledge() {
       <section className="text-center m-auto">
         <Subtitulo>Conhecimentos</Subtitulo>
         {/* tirei o carrossel */}
-        <div>
+        <div className="mt-5">
           {/* <button class="control control-left" onclick="moverCarrossel(-1)">
             &#10094; </button>*/}
           <div className="m-auto grid grid-cols-3 gap-4">

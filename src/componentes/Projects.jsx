@@ -7,21 +7,26 @@ function Projects() {
       <section className="text-center m-auto">
         <Subtitulo>Projetos</Subtitulo>
 
-        <div className=" inline-grid grid-cols-2 gap-2 mb-[5%] m-2.5">
-          <div class="proj">
-            <div class="service-proj" className="relative">
-              <div className="w-[500px] rounded-2xl">
-                <img src="/img/projetos/agencia_de_sites.png" alt="html5" />
+        <div className="inline-grid grid-cols-2 mb-[5%] m-2.5">
+          <div className="flex-auto text-center m-3">
+            <div className="relative">
+              <div className="w-[500px]">
+                <img
+                  className="rounded-2xl"
+                  src="/img/projetos/agencia_de_sites.png"
+                  alt="html5"
+                />
               </div>
               <a href="http://agencia_de_sites.larytgs.com.br/" target="_blank">
                 <TitleH3 class="H3">Site para divulgar o meu trabalho.</TitleH3>
               </a>
             </div>
           </div>
-          <div class="proj">
-            <div class="service-proj" className="relative">
+          <div className="flex-auto text-center m-3">
+            <div className="relative">
               <div className="w-[500px] rounded-2xl">
                 <img
+                  className="rounded-2xl"
                   src="/img/projetos/vittCarService.png"
                   alt="vittCarService"
                 />
@@ -31,10 +36,11 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div class="proj">
-            <div class="service-proj" className="relative">
+          <div className="flex-auto text-center m-3">
+            <div className="relative">
               <div className="w-[500px] rounded-2xl">
                 <img
+                  className="rounded-2xl"
                   src="/img/projetos/siteVeterinaria.png"
                   alt="siteVeterinaria"
                 />
@@ -49,10 +55,11 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div class="proj">
-            <div class="service-proj" className="relative">
+          <div className="flex-auto text-center m-3">
+            <div className="relative">
               <div className="w-[500px] rounded-2xl">
                 <img
+                  className="rounded-2xl"
                   src="/img/projetos/siteBiscoitosDecorados .png"
                   alt="siteBiscoitosDecorados"
                 />
