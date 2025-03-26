@@ -3,6 +3,7 @@ import { useState } from "react";
 import Button, { Lista } from "./estilização/First";
 import Header from "./Header";
 import { Presentation, Skills, Knowledge, Projects } from "./pages";
+import Footer from "./footer";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
@@ -11,7 +12,8 @@ function Firstmain() {
 
   // A função toggleSection vai alternar entre mostrar e esconder a seção
   const toggleSection = (section) => {
-    setVisibleSection(visibleSection === section ? null : section); // Se a seção já estiver visível, esconda; senão, mostre.
+    // Se a seção clicada for a mesma que já está visível, ela permanece, senão, troca
+    setVisibleSection(visibleSection === section ? visibleSection : section);
   };
 
   return (
@@ -108,6 +110,8 @@ function Firstmain() {
           {visibleSection === "projects" && <Projects />}
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
