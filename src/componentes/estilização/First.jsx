@@ -1,8 +1,8 @@
-function First(onClick, props) {
+function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px]"
+      className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px] relative"
     >
       {props.children}
     </button>
@@ -15,5 +15,5 @@ function Lista(props) {
   );
 }
 
-export default First;
+export default Button;
 export { Lista };

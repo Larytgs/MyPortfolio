@@ -5,13 +5,12 @@ import Header from "./Header";
 import { Presentation, Skills, Knowledge, Projects } from "./pages";
 
 function Firstmain() {
-  // null/false, ou seja, nenhuma seção está visível no início.
+  // Inicializando "presentation" como a seção visível
   // A variável "visibleSection" irá armazenar a seção visível atualmente (ou null se nenhuma)
-  const [visibleSection, setVisibleSection] = useState(null);
+  const [visibleSection, setVisibleSection] = useState("presentation");
 
   // A função toggleSection vai alternar entre mostrar e esconder a seção
   const toggleSection = (section) => {
-    console.log("Trocando para seção:", section); // Debug
     setVisibleSection(visibleSection === section ? null : section); // Se a seção já estiver visível, esconda; senão, mostre.
   };
 
@@ -76,33 +75,37 @@ function Firstmain() {
           </div>
         </section>
 
-        <div className="mt-10">
+        <div className="mt-14">
           <ul className="text-center">
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
                 Apresentação
               </Button>
-              {visibleSection === "presentation" && <Presentation />}
             </Lista>
             <Lista>
               <Button onClick={() => toggleSection("skills")}>
                 Habilidades
               </Button>
-              {visibleSection === "skills" && <Skills />}
             </Lista>
             <Lista>
               <Button onClick={() => toggleSection("knowledge")}>
                 Conhecimentos
               </Button>
-              {visibleSection === "knowledge" && <Knowledge />}
             </Lista>
             <Lista>
               <Button onClick={() => toggleSection("projects")}>
                 Projetos
               </Button>
-              {visibleSection === "projects" && <Projects />}
             </Lista>
           </ul>
+        </div>
+
+        {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
+        <div className="mt-10">
+          {visibleSection === "presentation" && <Presentation />}
+          {visibleSection === "skills" && <Skills />}
+          {visibleSection === "knowledge" && <Knowledge />}
+          {visibleSection === "projects" && <Projects />}
         </div>
       </section>
     </>
