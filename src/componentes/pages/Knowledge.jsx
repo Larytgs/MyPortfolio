@@ -12,7 +12,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/html5-original.svg"
+                src="../../../public/img/logo/conhecimentos/html5-original.svg"
                 alt="html5"
               />
               <H3>HTML5</H3>
@@ -24,7 +24,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/css3-original.svg"
+                src="../../../public/img/logo/conhecimentos/css3-original.svg"
                 alt="css3"
               />
               <H3>CSS3</H3>
@@ -36,7 +36,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/javascript-original.svg"
+                src="../../../public/img/logo/conhecimentos/javascript-original.svg"
                 alt="JS"
               />
               <H3>JavaScript</H3>
@@ -49,7 +49,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/git-original.svg"
+                src="../../../public/img/logo/conhecimentos/git-original.svg"
                 alt="GIT"
               />
               <H3>GIT</H3>
@@ -61,7 +61,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/github-original.png"
+                src="../../../public/img/logo/conhecimentos/github-original.png"
                 alt="GITHUB"
               />
               <H3>GitHub</H3>
@@ -74,7 +74,7 @@ function Knowledge() {
             <Cards>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/postman-original.svg"
+                src="../../../public/img/logo/conhecimentos/postman-original.svg"
                 alt="Postman"
               />
               <H3>Postman</H3>
@@ -87,7 +87,7 @@ function Knowledge() {
             <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left ">
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/vscode-original.svg"
+                src="../../../public/img/logo/conhecimentos/vscode-original.svg"
                 alt="VSCODE"
               />
               <H3>VSCODE</H3>

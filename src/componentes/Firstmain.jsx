@@ -34,13 +34,13 @@ function Firstmain() {
               <div className="flex gap-4 items-center">
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
-                  href="/img/CurriculoLaryssa.pdf"
+                  href="../../public/img/CurriculoLaryssa.pdf"
                   target="_blank"
                 >
                   Download CV
                   <img
                     className="w-[20px] h-[20px]"
-                    src="/img/logo/icons8-download-24.png"
+                    src="../../public/img/logo/icons8-download-24.png"
                     alt="Curriculo"
                   />
                 </a>
@@ -55,7 +55,7 @@ function Firstmain() {
           <figure className="relative m-auto ml-[-50px]">
             <img
               className="minhaft w-[350px]"
-              src="/img/logo/minhafoto2.jpg"
+              src="../../public/img/logo/minhafoto2.jpg"
               alt="minha foto"
             />
             <figcaption className="absolute text-gray-300 top-[89%] left-[20%]">
