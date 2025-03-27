@@ -73,7 +73,10 @@ function Firstmain() {
 
         {/* Github */}
         <section>
-          <div className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10">
+          <div
+            className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10
+          max-sm:flex-wrap"
+          >
             <img
               className="h-[170px]"
               src="https://github-readme-stats.vercel.app/api?username=larytgs&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"
