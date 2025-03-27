@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "cabeçalho";
-  src: url(estilo/Mogent.otf) format(opentype);
-}
-
 * {
   font-family: "Times New Roman", Times, serif;
 }
