@@ -1,7 +1,7 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
-import Button, { Lista } from "./StyleF.jsx";
+import Button, { Lista, Ul } from "./StyleF.jsx";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -90,7 +90,7 @@ function Firstmain() {
 
         {/* Botoes */}
         <div className="mt-14">
-          <ul className="text-center max-md:flex max-md:justify-center">
+          <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
                 Apresentação
@@ -111,7 +111,7 @@ function Firstmain() {
                 Projetos
               </Button>
             </Lista>
-          </ul>
+          </Ul>
         </div>
 
         {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
