@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //Routes: listas de rotas
 //Route: cada rota
 
-import Firstmain from "./componentes/FirstMain/Firstmain";
+import Firstmain from "./componentes/FirstMain/index";
 // import Presentation from "./componentes/pages/Presentation";
 // import Skills from "./componentes/pages/Skills";
 // import Knowledge from "./componentes/pages/Knowledge";

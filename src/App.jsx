@@ -1,4 +1,4 @@
-import CustomCursor from "./componentes/estilização/CustomCursor";
+import CustomCursor from "./componentes/styles/CustomCursor";
 import AppRoutes from "./routes";
 
 function App() {

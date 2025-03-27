@@ -1,9 +1,10 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
-import Footer from "../Header-Footer/Footer.jsx";
-import Button, { Lista } from "../FirstMain/StyleF.jsx";
-import Header from "../Header/Header.jsx";
+import Button, { Lista } from "./StyleF.jsx";
+
+import Header from "../Header/index.jsx";
+import Footer from "../Footer.jsx";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
