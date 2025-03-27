@@ -23,22 +23,22 @@ function Firstmain() {
       <section className="mb-6 p-5 mt-14">
         <section
           className="flex justify-between 
-        max-md:flex-col-reverse max-md:text-center"
+        max-lg:flex-col-reverse max-lg:text-center"
         >
           <article className="m-auto p-5 text-center">
             <article>
               <h1
                 className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
-              max-md:text-[2.1em] max-md:mt-[3%]"
+              max-lg:text-[2.1em] max-lg:mt-[5%]"
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676] max-md:text-[0.8em]">
+                <span className="text-[0.7em] font-thin text-[#797676] max-lg:text-[0.8em]">
                   Desenvolvedora Web Front end
                 </span>
               </h1>
               <br />
-              <div className="flex gap-4 items-center max-md:block">
+              <div className="flex gap-4 items-center max-lg:block">
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
                   href="../../public/img/CurriculoLaryssa.pdf"
@@ -51,7 +51,7 @@ function Firstmain() {
                     alt="Curriculo"
                   />
                 </a>
-                <p className="block w-[450px] font-serif text-[1.2em] max-md:text-[1.1em] max-md:mt-4">
+                <p className="block w-[450px] font-serif text-[1.2em] max-lg:text-[1.1em] max-lg:mt-4">
                   ”Transformando sonhos em conquistas; linhas de código em
                   experiências memoráveis.”
                 </p>
