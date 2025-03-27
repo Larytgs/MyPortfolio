@@ -47,9 +47,9 @@ body {
 }
 
 /*Remove o cursor padrão */
-/* body {
+body {
   cursor: none;
-} */
+}
 /* Estilizando o cursor personalizado */
 .cursor {
   width: 20px;
