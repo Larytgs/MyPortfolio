@@ -40,7 +40,7 @@ function Firstmain() {
                   Download CV
                   <img
                     className="w-[20px] h-[20px]"
-                    src="../../public/img/logo/icon-download.png"
+                    src="C:\Users\larys\OneDrive\Documentos\Projetos\MyPortfolio\public\img\logo\icon-download.png"
                     alt="Curriculo"
                   />
                 </a>
@@ -55,7 +55,7 @@ function Firstmain() {
           <figure className="relative m-auto ml-[-50px]">
             <img
               className="minhaft w-[350px]"
-              src="../../public/img/logo/minhafoto2.jpg"
+              src="C:\Users\larys\OneDrive\Documentos\Projetos\MyPortfolio\public\img\logo\minhafoto2.jpg"
               alt="minha foto"
             />
             <figcaption className="absolute text-gray-300 top-[89%] left-[20%]">
