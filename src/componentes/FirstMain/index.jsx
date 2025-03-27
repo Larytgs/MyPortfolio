@@ -21,10 +21,16 @@ function Firstmain() {
     <>
       <Header />
       <section className="mb-6 p-5 mt-14">
-        <section className="flex justify-between max-md:flex-col-reverse max-md:text-center">
+        <section
+          className="flex justify-between 
+        max-md:flex-col-reverse max-md:text-center"
+        >
           <article className="m-auto p-5 text-center">
             <article>
-              <h1 className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none max-md:text-[2.1em] max-md:mt-[3%]">
+              <h1
+                className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
+              max-md:text-[2.1em] max-md:mt-[3%]"
+              >
                 Laryssa Tortato Gomes da Silva
                 <br />
                 <span className="text-[0.7em] font-thin text-[#797676] max-md:text-[0.8em]">
@@ -65,7 +71,8 @@ function Firstmain() {
           </figure>
         </section>
 
-        <section className="justify-start">
+        {/* Github */}
+        <section>
           <div className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10">
             <img
               className="h-[170px]"
@@ -78,6 +85,7 @@ function Firstmain() {
           </div>
         </section>
 
+        {/* Botoes */}
         <div className="mt-14">
           <ul className="text-center max-md:flex max-md:justify-center">
             <Lista>
