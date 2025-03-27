@@ -10,7 +10,8 @@ function Knowledge() {
         <div className="mt-5 justify-center items-center">
           <div
             className="grid grid-cols-3 gap-4
-          max-sm:block"
+            max-lg:col-span-2
+            max-md:block"
           >
             <Cards>
               <img
@@ -87,10 +88,7 @@ function Knowledge() {
                 compartilhar APIs.
               </P>
             </Cards>
-            <div
-              className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left 
-            max-sm:h-[250px] max-sm:m-2"
-            >
+            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] m-auto align-middle p-4 text-left">
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/vscode-original.svg"
