@@ -10,10 +10,10 @@ const CustomCursor = () => {
     const moveCursor = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
-    //Cria a função moveCursor, que é chamada sempre que o mouse se move (mousemove).
     // e.clientX e e.clientY capturam a posição atual do cursor.
     // setPosition({ x: e.clientX, y: e.clientY }) atualiza o estado com a nova posição
 
+    //Cria a função moveCursor, que é chamada sempre que o mouse se move (mousemove).
     window.addEventListener("mousemove", moveCursor);
     return () => window.removeEventListener("mousemove", moveCursor);
   }, []); //([] no final indica que ele só executa quando o componente é montado).
