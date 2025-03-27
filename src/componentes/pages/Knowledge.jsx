@@ -1,5 +1,6 @@
 import Section, { Cards, H3 } from "../estilização/Section";
 import Subtitulo from "../estilização/Subtitulo";
+import "../../../public/img";
 
 //Conhecimentos
 function Knowledge() {
