@@ -4,7 +4,7 @@ function Button(props) {
       onClick={props.onClick}
       className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px] relative 
       max-md:text-[1.4em] 
-      max-md:pt-2 max-md:pb-2 max-md:pl-4 max-md:pr-4 
+      max-md:py-2 max-md:px-4 
       max-md:w-[100%]"
     >
       {props.children}

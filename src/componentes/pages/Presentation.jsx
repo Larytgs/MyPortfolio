@@ -4,10 +4,11 @@ import Section, { Text } from "../styles/Section";
 function Presentation() {
   return (
     <Section>
-      <section className="flex gap-7">
+      <section className="flex gap-7 max-md:block max-md:text-center max-md:my-0 max-mx:ml-12">
         <figure>
           <img
-            className="w-[35rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110"
+            className="w-[35rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+            max-md:w-[450px]"
             src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"
             alt=""
           />

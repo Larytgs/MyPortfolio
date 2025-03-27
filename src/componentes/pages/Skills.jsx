@@ -5,7 +5,10 @@ import Section, { Text, SkillWrapper } from "../styles/Section";
 function Skills() {
   return (
     <Section>
-      <div className="flex gap-7">
+      <div
+        className="flex gap-7 max-md:block max-md:text-center 
+      max-md:my-0 max-mx:ml-12"
+      >
         <div className="m-auto text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
           <Text className="text-lg text-left m-5">
@@ -50,7 +53,10 @@ function Skills() {
             </li>
           </ul>
         </div>
-        <figure className="w-[40rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110">
+        <figure
+          className="w-[40rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+        max-md:w-[450px]"
+        >
           <img src="/img/html-css-js.jpg" alt="" />
         </figure>
       </div>
