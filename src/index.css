@@ -111,6 +111,12 @@ body {
   opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
 }
 
+@media all and (max-width: 1115px) {
+  .cursor {
+    display: none;
+  }
+}
+
 /* @theme {
   --container-8xl: 96rem;
 } */

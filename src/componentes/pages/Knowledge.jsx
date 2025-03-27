@@ -1,4 +1,4 @@
-import Section, { Cards, H3 } from "../styles/Section";
+import Section, { Cards, H3, P } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 //Conhecimentos
@@ -16,10 +16,10 @@ function Knowledge() {
                 alt="html5"
               />
               <H3>HTML5</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 HTML5 é uma linguagem de marcação de hipertexto, que usamos para
                 marcar os elementos da página e construí-la.
-              </p>
+              </P>
             </Cards>
             <Cards>
               <img
@@ -28,10 +28,10 @@ function Knowledge() {
                 alt="css3"
               />
               <H3>CSS3</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 CSS3 é uma linguagem de estilo usada para descrever a
                 apresentação dos elementos da página os estilizando.{" "}
-              </p>
+              </P>
             </Cards>
             <Cards>
               <img
@@ -40,11 +40,11 @@ function Knowledge() {
                 alt="JS"
               />
               <H3>JavaScript</H3>
-              <p className="text-lg font-bold text-white">
+              <P className="text-lg font-bold text-white max-md:text-md max-md:font-normal">
                 JavaScript é uma linguagem de programação interpretada usada no
                 desenvolvimento web para descrever funcionalidades e
                 comportamentos da página.
-              </p>
+              </P>
             </Cards>
             <Cards>
               <img
@@ -53,10 +53,10 @@ function Knowledge() {
                 alt="GIT"
               />
               <H3>GIT</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 Git é um sistema de controle de versão distribuído amplamente
                 utilizado no desenvolvimento de software.
-              </p>
+              </P>
             </Cards>
             <Cards>
               <img
@@ -65,11 +65,11 @@ function Knowledge() {
                 alt="GITHUB"
               />
               <H3>GitHub</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 O GitHub é uma plataforma online que permite armazenar,
                 compartilhar e colaborar em projetos de software. É uma
                 ferramenta muito utilizada por desenvolvedores.
-              </p>
+              </P>
             </Cards>
             <Cards>
               <img
@@ -78,11 +78,11 @@ function Knowledge() {
                 alt="Postman"
               />
               <H3>Postman</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 O Postman é uma plataforma de desenvolvimento e teste de APIs.
                 Ele é usado por desenvolvedores para criar, testar, documentar e
                 compartilhar APIs.
-              </p>
+              </P>
             </Cards>
             <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left ">
               <img
@@ -91,10 +91,10 @@ function Knowledge() {
                 alt="VSCODE"
               />
               <H3>VSCODE</H3>
-              <p className="font-bold text-lg text-white">
+              <P>
                 Visual Studio Code (VS Code) é um editor de código-fonte
                 gratuito e de código aberto desenvolvido pela Microsoft.
-              </p>
+              </P>
             </div>
           </div>
           <a
