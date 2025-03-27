@@ -54,7 +54,7 @@ function Skills() {
           </ul>
         </div>
         <figure
-          className="w-[40rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+          className="w-[500px] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
         max-md:w-[450px]"
         >
           <img src="/img/html-css-js.jpg" alt="" />
