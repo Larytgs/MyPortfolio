@@ -4,7 +4,7 @@ import Section, { Text } from "../styles/Section";
 function Presentation() {
   return (
     <Section>
-      <section className="flex gap-7 max-md:block max-md:text-center max-md:my-0 max-mx:ml-12">
+      <section className="flex gap-7 max-lg:block max-lg:text-center max-lg:my-0 max-lg:ml-12">
         <figure>
           <img
             className="w-[35rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
@@ -15,7 +15,7 @@ function Presentation() {
         </figure>
 
         <div className="m-auto text-center">
-          <Subtitulo className="max-md:mt-5 max-sm:mt-5">
+          <Subtitulo className="max-lg:mt-5">
             Um pequeno palco em meio à imensidão cósmica.
           </Subtitulo>
           <Text>

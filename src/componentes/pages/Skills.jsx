@@ -6,8 +6,8 @@ function Skills() {
   return (
     <Section>
       <div
-        className="flex gap-7 max-md:block max-md:text-center 
-      max-md:my-0 max-mx:ml-12"
+        className="flex gap-7 max-lg:block max-lg:text-center 
+      max-lg:my-0 max-mx:ml-12"
       >
         <div className="m-auto text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
