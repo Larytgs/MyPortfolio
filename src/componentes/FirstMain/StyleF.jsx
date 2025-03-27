@@ -2,7 +2,7 @@
 
 function Ul(props) {
   return (
-    <ul className="text-center max-md:flex max-md:justify-center max-md:">
+    <ul className="text-center max-md:flex max-md:justify-between">
       {props.children}
     </ul>
   );
@@ -25,8 +25,7 @@ function Lista(props) {
   return (
     <li
       className="inline-block m-1 bg-white text-black 
-    max-md:flex-1 
-    max-md:flex"
+    max-md:flex-1 max-md:flex max-md:m-0.5"
     >
       {props.children}{" "}
     </li>
