@@ -40,7 +40,7 @@ function Firstmain() {
                   Download CV
                   <img
                     className="w-[20px] h-[20px]"
-                    src="../../public/img/logo/icons8-download-24.png"
+                    src="../../public/img/logo/icon-download.png"
                     alt="Curriculo"
                   />
                 </a>
