@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 //Todas as Sections
 function Section(props) {
   return (
-    <section className="mt[1%] mb-[1%] p-7 align-middle">
+    <section
+      className="mt[1%] mb-[1%] p-7 align-middle
+    max-md:p-5"
+    >
       {props.children}
     </section>
   );

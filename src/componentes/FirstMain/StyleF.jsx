@@ -2,7 +2,10 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px] relative"
+      className="text-3xl pt-[10px] pb-[10px] pl-[70px] pr-[70px] relative 
+      max-md:text-[1.4em] 
+      max-md:pt-2 max-md:pb-2 max-md:pl-4 max-md:pr-4 
+      max-md:w-[100%]"
     >
       {props.children}
     </button>
@@ -11,7 +14,13 @@ function Button(props) {
 
 function Lista(props) {
   return (
-    <li className="inline-block m-1 bg-white text-black">{props.children} </li>
+    <li
+      className="inline-block m-1 bg-white text-black 
+    max-md:flex-1 
+    max-md:flex"
+    >
+      {props.children}{" "}
+    </li>
   );
 }
 

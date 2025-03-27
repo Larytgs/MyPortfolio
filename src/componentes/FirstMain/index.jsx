@@ -21,18 +21,18 @@ function Firstmain() {
     <>
       <Header />
       <section className="mb-6 p-5 mt-14">
-        <section className="flex justify-between ">
+        <section className="flex justify-between max-md:flex-col-reverse max-md:text-center">
           <article className="m-auto p-5 text-center">
             <article>
-              <h1 className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none">
+              <h1 className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none max-md:text-[2.1em] max-md:mt-[3%]">
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676]">
+                <span className="text-[0.7em] font-thin text-[#797676] max-md:text-[0.8em]">
                   Desenvolvedora Web Front end
                 </span>
               </h1>
               <br />
-              <div className="flex gap-4 items-center">
+              <div className="flex gap-4 items-center max-md:block">
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
                   href="../../public/img/CurriculoLaryssa.pdf"
@@ -45,7 +45,7 @@ function Firstmain() {
                     alt="Curriculo"
                   />
                 </a>
-                <p className="block w-[450px] font-serif text-[1.2em]">
+                <p className="block w-[450px] font-serif text-[1.2em] max-md:text-[1.1em] max-md:mt-4">
                   ”Transformando sonhos em conquistas; linhas de código em
                   experiências memoráveis.”
                 </p>
@@ -53,20 +53,20 @@ function Firstmain() {
             </article>
           </article>
 
-          <figure className="relative m-auto ml-[-50px]">
+          <figure className="relative m-auto max-md:text-center">
             <img
-              className="minhaft w-[350px]"
+              className="minhaft w-[350px] max-md:w-[320px]"
               src="/img/logo/minhafoto2.jpg"
               alt="minha foto"
             />
-            <figcaption className="absolute text-gray-300 top-[89%] left-[20%]">
+            <figcaption className="absolute text-gray-300 top-[89%] left-[20%] max-md:hidden">
               Laryssa Tortato Gomes da Silva
             </figcaption>
           </figure>
         </section>
 
         <section className="justify-start">
-          <div className="justify-center flex mt-28 gap-2">
+          <div className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10">
             <img
               className="h-[170px]"
               src="https://github-readme-stats.vercel.app/api?username=larytgs&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"
@@ -79,7 +79,7 @@ function Firstmain() {
         </section>
 
         <div className="mt-14">
-          <ul className="text-center">
+          <ul className="text-center max-md:flex max-md:justify-center">
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
                 Apresentação
