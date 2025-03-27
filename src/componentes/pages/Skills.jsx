@@ -50,7 +50,7 @@ function Skills() {
             </li>
           </ul>
         </div>
-        <figure className="w-[40rem] m-auto">
+        <figure className="w-[40rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110">
           <img src="/img/html-css-js.jpg" alt="" />
         </figure>
       </div>

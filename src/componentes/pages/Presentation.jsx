@@ -7,7 +7,7 @@ function Presentation() {
       <section className="flex gap-7">
         <figure>
           <img
-            className="w-[35rem] m-2"
+            className="w-[35rem] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110"
             src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"
             alt=""
           />
