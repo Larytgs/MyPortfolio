@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //Route: cada rota
 
 import Firstmain from "./componentes/Firstmain";
-import Presentation from "./componentes/pages/Presentation";
-import Skills from "./componentes/pages/Skills";
-import Knowledge from "./componentes/pages/Knowledge";
-import Projects from "./componentes/pages/Projects";
+// import Presentation from "./componentes/pages/Presentation";
+// import Skills from "./componentes/pages/Skills";
+// import Knowledge from "./componentes/pages/Knowledge";
+// import Projects from "./componentes/pages/Projects";
 
 function AppRoutes() {
   return (
@@ -15,13 +15,15 @@ function AppRoutes() {
       <Routes>
         {/* path="/" : Rota raiz */}
         <Route path="/" element={<Firstmain />}></Route>
-        <Route path="/presentation" element={<Presentation />}></Route>
+        {/* <Route path="/presentation" element={<Presentation />}></Route>
         <Route path="/skills" element={<Skills />}></Route>
         <Route path="/knowledge" element={<Knowledge />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/projects" element={<Projects />}></Route> */}
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default AppRoutes;
+
+//Foi feito só para um exemplo de routes
