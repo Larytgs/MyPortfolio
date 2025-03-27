@@ -1,5 +1,5 @@
 import Subtitulo from "../estilização/Subtitulo";
-import Section, { Text } from "../estilização/Section";
+import Section, { Text } from "../styles/Section";
 
 function Presentation() {
   return (

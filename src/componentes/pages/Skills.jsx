@@ -1,5 +1,5 @@
-import Subtitulo from "../estilização/Subtitulo";
-import Section, { Text, SkillWrapper } from "../estilização/Section";
+import Subtitulo from "../styles/Subtitulo";
+import Section, { Text, SkillWrapper } from "../styles/Section";
 
 //Habilidades
 function Skills() {
