@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 //Todas as Sections
 function Section(props) {
@@ -44,7 +43,7 @@ function H3(props) {
   return <h3 className="text-2xl mt-6 mb-2 ml-0 mr-0">{props.children}</h3>;
 }
 
-//H3 dos Projetos - Projects.jsx
+//De cada Projeto - Projects.jsx
 function Project(props) {
   return (
     <motion.div
@@ -57,7 +56,7 @@ function Project(props) {
     </motion.div>
   );
 }
-
+//H3 dos Projetos - Projects.jsx
 function TitleH3(props) {
   return (
     <h3 className="H3 absolute text-[#6ad0ff] text-2xl texto-sm/7 opacity-0 translate-x-[-50%] translate-y-[-80%] transform transition duration-250 ease-in-out">

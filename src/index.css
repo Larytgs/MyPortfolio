@@ -46,7 +46,7 @@ body {
   width: 100vw; /* 100% da largura da viewport */
 }
 
-/* Remove o cursor padrão */
+/*Remove o cursor padrão */
 /* body {
   cursor: none;
 } */
@@ -55,6 +55,7 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  cursor: help;
   background-color: #00ffff80; /* Cor turquesa com transparência */
   position: absolute;
   pointer-events: none; /* Evita interferência com cliques */
