@@ -15,7 +15,9 @@ function Presentation() {
         </figure>
 
         <div className="m-auto text-center">
-          <Subtitulo>Um pequeno palco em meio à imensidão cósmica.</Subtitulo>
+          <Subtitulo className="max-md:mt-5 max-sm:mt-5">
+            Um pequeno palco em meio à imensidão cósmica.
+          </Subtitulo>
           <Text>
             Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Itapoá-SC.
             <br />

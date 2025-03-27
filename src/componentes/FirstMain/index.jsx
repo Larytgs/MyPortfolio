@@ -115,7 +115,7 @@ function Firstmain() {
         </div>
 
         {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
-        <div className="mt-10">
+        <div className="mt-10 max-sm:mt-4">
           {visibleSection === "presentation" && <Presentation />}
           {visibleSection === "skills" && <Skills />}
           {visibleSection === "knowledge" && <Knowledge />}
