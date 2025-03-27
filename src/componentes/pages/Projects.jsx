@@ -7,7 +7,7 @@ function Projects() {
       <section className="text-center m-auto">
         <Subtitulo>Projetos</Subtitulo>
 
-        <Project>
+        <Project className="max-sm:mb-[-2%]">
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative">
               <div className="card-proj">

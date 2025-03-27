@@ -5,10 +5,13 @@ import Subtitulo from "../styles/Subtitulo";
 function Knowledge() {
   return (
     <Section>
-      <section className="text-center m-auto">
+      <section className="text-center m-auto min-h-screen">
         <Subtitulo>Conhecimentos</Subtitulo>
-        <div className="mt-5">
-          <div className="m-auto grid grid-cols-3 gap-4">
+        <div className="mt-5 justify-center items-center">
+          <div
+            className="grid grid-cols-3 gap-4
+          max-sm:block"
+          >
             <Cards>
               <img
                 className="w-16"
@@ -84,7 +87,10 @@ function Knowledge() {
                 compartilhar APIs.
               </P>
             </Cards>
-            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left ">
+            <div
+              className="bg-[#333] col-span-3 w-full rounded-2xl h-[200px] m-auto align-middle p-4 text-left 
+            max-sm:h-[250px] max-sm:m-2"
+            >
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/vscode-original.svg"

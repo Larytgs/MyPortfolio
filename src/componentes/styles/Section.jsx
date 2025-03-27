@@ -36,7 +36,8 @@ function Cards(props) {
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       className="ml-3 bg-[#333] rounded-2xl w-[400px] h-[300px] m-auto align-middle p-4 text-left
-      max-md:w-[100%] max-md:ml-0 max-md:h-[400px]"
+      max-md:w-[100%] max-md:ml-0 max-md:h-[400px]
+      max-sm:h-[250px] max-sm:m-2"
     >
       {props.children}
     </motion.div>
@@ -45,13 +46,23 @@ function Cards(props) {
 //H3 e P dos Cards do conhecimentos - Knowledge.jsx
 function H3(props) {
   return (
-    <h3 className="text-2xl font-bold mt-6 mb-2 ml-0 mr-0 max-md:text-lg">
+    <h3
+      className="text-2xl font-bold mt-6 mb-2 ml-0 mr-0 max-md:text-lg
+      max-sm:text-[1.1em]"
+    >
       {props.children}
     </h3>
   );
 }
 function P(props) {
-  return <p className="text-lg text-white max-md:text-md">{props.children}</p>;
+  return (
+    <p
+      className="text-lg text-white max-md:text-md
+      "
+    >
+      {props.children}
+    </p>
+  );
 }
 
 //De cada Projeto - Projects.jsx
@@ -61,8 +72,8 @@ function Project(props) {
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
-      className="inline-grid grid-cols-2 mb-[5%] m-2.5
-      max-md:max-md:grid-cols-1"
+      className={`inline-grid grid-cols-2 mb-[5%] m-2.5
+      max-md:grid-cols-1 ${props.className}`}
     >
       {props.children}
     </motion.div>
