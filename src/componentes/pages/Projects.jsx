@@ -1,4 +1,4 @@
-import Section, { TitleH3, Project } from "../estilização/Section";
+import Section, { TitleH3, Project } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 function Projects() {

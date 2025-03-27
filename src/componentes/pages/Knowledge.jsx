@@ -1,4 +1,4 @@
-import Section, { Cards, H3 } from "../estilização/Section";
+import Section, { Cards, H3 } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 //Conhecimentos
