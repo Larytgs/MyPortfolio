@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
 import Button, { Lista, Ul } from "./StyleF.jsx";
+import "../../index.css";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -28,8 +29,8 @@ function Firstmain() {
           <article className="m-auto p-5 text-center">
             <article>
               <h1
-                className=" text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
-              max-lg:text-[2.1em] max-lg:mt-[5%]"
+                className="text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
+                max-lg:text-[2em] max-lg:mt-[5%]"
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
